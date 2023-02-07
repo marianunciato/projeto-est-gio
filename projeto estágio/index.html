@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>
+      Netflix Brasil - assistir a séries online, assistir a filmes online.
+    </title>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700;800;900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="body bg-black">
+
+    <nav class="navbar bg-body-tertiary">
+      <div class="container justify-content-center">
+        <a class="navbar-brand justify-content-center" href="#">
+          <span class="badge rounded-pill text-bg-danger text-uppercase">Novo!</span>
+          <a class="novidade__texto text-decoration-none text-dark p-2"> Planos a partir de <b class="fw-bold fs-5">R$18,90</b>. </a>
+          <a class="link__saiba text-decoration-none text-primary fw-bold p-2 fs-6" href="#"> Saiba mais > </a>
+        </a>
+      </div>
+    </nav>
+
+    <section class="container__destaque h-100 border-top border-5 border-dark">
+      
+      <div class="container_destaque-main border-bottom border-5 border-dark">
+        <div class="container__top-destaques d-flex align-items-center justify-content-between">
+          <img class="logo__netflix mx-5" src="./img/logo-netflix.png" width="193" height="123" alt="Logo da Netflix">
+          <div class="botoes__nav d-flex justify-content-end mx-5">
+            <select name="Idioma" class="selecao__idioma bg-transparent text-light m-1 p-2 rounded-1">
+              <option class="opcao bg-secondary" value="Português">Português</option>
+              <option class="opcao bg-secondary" value="Inglês">Inglês</option>
+            </select>
+              <button type="button" class="btn btn-danger p-1 m-1 rounded-1">Entrar</button>
+        </div>
+      </div>
+        
+          <header class="container__texto-destaque align-itens-center mt-5">
+            <h1 class="texto__destaque fw-bold text-white text-center align-items-center">Filmes, séries e muito mais. Sem limites.</h1>
+            <div class="descricao__destaque">
+              <p class="descricao__destaque text-white text-center fs-4">Assista onde quiser. Cancele quando quiser.</p>
+            </div>
+            <div class="container__email d-flex flex-column align-items-center justify-content-center mt-4 ">
+              <label for="inputPassword5" class="form-label text-white text-center w-100 pb-4 fs-5 mb-0">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</label>
+              <div class="input-group mb-3 align-items-center rounded-0" style="width: 675px;">
+                <input type="email" class="form-control rounded-0 p-3 mr-1 fs-5 border-1" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-danger border-1 rounded-0 p-3 ml-2 fs-5" type="button" id="button-addon2">Vamos lá > </button>
+              </div>
+            </div>
+          </header>
+      </div>
+    </section>
+
+  <!-- DIFERENCIAIS -->
+
+  <main class="secao__diferenciais">
+
+  <!-- CONTAINER TV -->
+
+      <section class="container__offline border-bottom border-5 border-dark p-5">
+        <div class="d-flex justify-content-center align-items-center px-5 mx-5">
+          <div class="align-items-center justify-content-end">
+            <h1 class="texto__tv fs-1 fw-bold text-white text-start">Aproveite na TV.</h1>
+            <p class="descricao__tv fs-4 text-white text-start w-100">Assista em Smart TVs, PlayStation, Xbox, Chrmocast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</p>
+          </div>
+          <img class="image__offline w-50 p-2 m-4" src="img/tv-screen.png" alt="Assista Netflix na TV.">
+        </div>    
+      </section>   
+        
+  <!-- CONTAINER MULTI -->
+      
+      <section class="container__offline border-bottom border-5 border-dark p-5">
+        <div class="d-flex justify-content-center align-items-center mx-5 px-5">
+            <img class="image__offline w-50 p-2 m-4" src="img/multi-screens.png" alt="Assista Netflix no dispositivo que quiser.">
+          <div class="align-items-center">
+            <h1 class="texto__tv fs-1 fw-bold text-white text-start">Assista quando quiser.</h1>
+            <p class="descricao__tv fs-4 text-white text-start w-100 m-0">Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
+          </div>
+        </div>    
+      </section>
+
+  <!-- CONTAINER CRIANÇAS -->
+
+      <section class="container__offline border-bottom border-5 border-dark p-5 d-grid">
+        <div class="d-flex justify-content-center align-items-center mx-5 px-5">
+          <div class="align-items-center justify-itens-center">
+            <h1 class="texto__tv fs-1 fw-bold text-white text-start w-100">Crie perfis para as crianças.</h1>
+            <p class="descricao__tv fs-4 text-white text-start m-0 w-100">Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</p>
+          </div>
+          <img class="image__offline w-50 p-2 m-4 align-items-center px-3" src="img/infantil-netflix.jpg" alt="Baixe conteúdo para assistir online.">
+        </div>    
+      </section>  
+
+  <!-- CONTAINER OFFLINE -->
+
+      <section class="container__offline border-bottom border-5 border-dark p-5">
+        <div class="d-flex justify-content-center align-items-center ml-5 mr- p-1">
+            <img class="image__offline w-25 px-3" src="img/mobile-screen.png" alt="Baixe conteúdo para assistir online.">
+          <div class="align-items-center px-3">
+            <h1 class="texto__tv fs-1 fw-bold text-white text-start w-75">Baixe séries para assistir offline.</h1>
+            <p class="descricao__tv fs-4 text-white text-start m-0 w-100">Disponível em todos os planos, exceto no Básico com anúncios.</p>
+          </div>
+        </div>    
+      </section>
+    </main>
+
+  <!-- CONTAINER DÚVIDAS -->
+
+  <section class="container__duvidas p-90px position-relative p-5 border-bottom border-5 border-dark">
+    <h1 class="text-white fw-bold text-center align-text-center m-5"> Perguntas frequentes </h1>
+    <div class="perguntas__frequentes text-center">
+      <p>
+        <button class="btn btn-dark w-50 text-start rounded-0 fs-4 p-3 mt-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="flase" aria-controls="collapseExample">
+          O que é a Netflix?
+        </button>
+      </p>
+      <div class="collapse w-50 mx-5 mx-5 align-items-center justify-content-center" id="collapseExample">
+        <div class="card card-body bg-dark text-white fs-4 mt-0 mb-2 rounded-0 text-start">
+          A Netflix é um serviço de streaming que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.
+        </div>
+      </div>
+      <p>
+        <button class="btn btn-dark w-50 text-start rounded-0 fs-4 p-3 mt-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+          Quanto custa a Netflix?
+        </button>
+      </p>
+      <div class="collapse w-50 mx-5 text-start" id="collapseExample2">
+        <div class="card card-body bg-dark text-white fs-4 mt-0 mb-2 rounded-0 col justify-content-center text-start">
+          Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. Os planos variam de R$18,90 a R$55,90 por mês. Sem contrato nem taxas extras.
+        </div>
+      </div>
+      <p>
+        <button class="btn btn-dark w-50 text-start rounded-0 fs-4 p-3 mt-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+          O que muda no plano Básico com anúncios?
+        </button>
+      </p>
+      <div class="collapse w-50 mx-5" id="collapseExample3">
+        <div class="card card-body bg-dark text-white fs-4 mt-0 mb-2 rounded-0 col justify-content-center text-start mx-auto">
+          O plano Básico com anúncios é uma excelente maneira de assistir a séries e filmes por um preço mais baixo. Você pode assistir a seus títulos favoritos em qualquer aparelho e com intervalos limitados para anúncios. Este plano não permite downloads nem contém determinados filmes e séries com restrições de licenciamento. Há também algumas restrições de localização e aparelho.
+        </div>
+      </div>
+      <p>
+        <button class="btn btn-dark w-50 text-start rounded-0 fs-4 p-3 mt-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+          Onde posso assistir?
+        </button>
+      </p>
+      <div class="collapse w-50 mx-5" id="collapseExample4">
+        <div class="card card-body bg-dark text-white fs-4 mt-0 mb-2 rounded-0 col justify-content-center text-start">
+          <p>Assista onde quiser, quando quiser. Faça login com sua conta Netflix em netflix.com para começar a assistir no computador ou em qualquer aparelho conectado à Internet compatível com o aplicativo Netflix, como Smart TVs, smartphones, tablets, aparelhos de streaming e videogames.</p>
+          <p>Você também pode baixar a sua série favorita com o aplicativo Netflix para iOS, Android ou Windows 10. Use downloads para levar a Netflix para onde quiser sem precisar de conexão com a Internet. Leve a Netflix com você para qualquer lugar.</p>
+        </div>
+      </div>
+      <p>
+        <button class="btn btn-dark w-50 text-start rounded-0 fs-4 p-3 mt-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
+          Como faço para cancelar?
+        </button>
+      </p>
+      <div class="collapse w-50 mx-5" id="collapseExample5">
+        <div class="card card-body bg-dark text-white fs-4 mt-0 mb-2 rounded-0 col justify-content-center text-start">
+          A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.
+        </div>
+      </div>
+      <p>
+        <button class="btn btn-dark w-50 text-start rounded-0 fs-4 p-3 mt-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">
+          O que eu posso assistir na Netflix?
+        </button>
+      </p>
+      <div class="collapse w-50 mx-5" id="collapseExample6">
+        <div class="card card-body bg-dark text-white fs-4 mt-0 mb-2 rounded-0 col justify-content-center text-start">
+          A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix premiados e muito mais. Assista o quanto quiser, quando quiser.
+        </div>
+      </div>
+      <p>
+        <button class="btn btn-dark w-50 text-start rounded-0 fs-4 p-3 mt-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">
+          A Netflix é adequada para crianças?
+        </button>
+      </p>
+      <div class="collapse w-50 mx-5" id="collapseExample7">
+        <div class="card card-body bg-dark text-white fs-4 mt-0 mb-2 rounded-0 col d-flex flex-column align-items-center justify-content-center text-start">
+          <p>A experiência infantil da Netflix faz parte da sua assinatura para que as crianças se divirtam em seu próprio espaço com séries e filmes familiares sob a supervisão dos responsáveis.</p>
+          <p>O recurso de controle parental, incluso nos perfis para crianças e protegido por PIN, permite restringir a classificação etária do conteúdo que as crianças podem ver e bloquear títulos específicos que você não quer que elas assistam.</p>
+        </div>
+      </div>
+    </div>
+  
+          <div class="container__email d-flex flex-column align-items-center justify-content-center mt-5 ">
+            <label for="inputPassword5" class="form-label text-white text-center w-50 pb-4 fs-5 mb-0">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</label>
+            <div class="input-group mb-3 w-50 align-items-center rounded-0">
+              <input type="text" class="form-control rounded-0 p-3 mr-1 fs-5 border-1" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-danger border-1 rounded-0 p-3 ml-2 fs-5" type="button" id="button-addon2">Vamos lá > </button>
+            </div>
+          </div>
+
+  </section>  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+    <footer class="rodape m-5 text-secondary">
+          <p class="rodape__sac color-secondary m-4 p-2">Dúvidas? Ligue <a class="text-decoration-underline text-secondary">0800 591 8942 </a></p>
+
+          <div class="rodape__opcoes d-grid row m-3 p-2 text-decoration-underline">
+                <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Perguntas frequentes</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Relações com investidores</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Formas de assistir</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Informações corporativas</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Só na Netflix</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Central de ajuda</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Carreiras</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Termos de Uso</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Entre em contato</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mb-">
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Conta</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Resgatar cartão pré-pago</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Privacidade</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Teste de velocidade</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mb-3">
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Media Center</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Comprar cartão pré-pago</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Preferências de cookies</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-secondary">Avisos legais</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+      </div>
+    
+       <div class="dropdown m-5">
+        <select name="Idioma" class="selecao__idioma bg-transparent text-secondary m- p-2 rounded-1">
+          <option class="opcao bg-secondary" value="Português">Português</option>
+          <option class="opcao bg-secondary" value="Inglês">Inglês</option>
+      </select>
+      </div>
+      <p class="m-5 mt-"> Netlfix Brasil </p>
+  </footer>
+
+
+    
+</html>
+                  
+              
